@@ -1,0 +1,34 @@
+Project 1: Student Performance Analysis
+This project analyzes student test scores to uncover factors that affect academic performance.
+
+What the code does: It cleans the dataset by filling in missing values (using medians for numbers and modes for text) and capping extreme outlier grades. It then calculates standard statistical measures like mean and variance.
+
+Key Takeaway: Through bar charts, histograms, and scatter plots, the analysis reveals patterns such as the strong correlation between reading and writing skills, and visualizes performance differences across demographics like gender.
+
+Project 2: Titanic Data Cleaning & Passenger Analysis
+This project investigates historical passenger data from the Titanic to determine which factors influenced survival rates.
+
+What the code does: It prepares the data by imputing missing ages, filling missing embarkation ports, dropping the heavily incomplete Cabin column, and capping unusually high ticket fares. It filters for specific demographics and groups the data to calculate exact survival percentages.
+
+Key Takeaway: The visual outputs—including stacked histograms and bar charts—clearly demonstrate that a passenger's sex and ticket class heavily dictated their survival probability, validating the historical "women and children first" protocol and highlighting the advantage of first-class accommodations.
+
+Project 3: Wine Quality Exploratory Data Analysis
+This project explores the chemical components of red wine to understand what physical properties result in higher quality ratings.
+
+What the code does: It runs descriptive statistics and builds a correlation matrix to mathematically link chemical traits to the final quality score. It identifies highly correlated feature pairs (like acidity and pH), counts statistical outliers, and filters for only top-rated wines.
+
+Key Takeaway: Using correlation heatmaps and boxplots, the analysis shows that higher alcohol content has the strongest positive relationship with high wine quality, while higher volatile acidity tends to lower the score.
+
+Project 4: Diamond Price Analysis
+This project breaks down a dataset of diamonds to discover how different physical attributes drive retail pricing.
+
+What the code does: It rigorously cleans the data by dropping duplicate rows and removing diamonds with impossible physical dimensions (sizes of zero). It normalizes the data by placing a ceiling on extremely high luxury prices.
+
+Key Takeaway: The resulting scatter plots and categorical boxplots reveal that carat weight is the single most dominant factor in determining a diamond's price, often masking the individual price impacts of a diamond's cut or color grade.
+
+Project 5: Retail Sales Analysis Dashboard
+This project acts as a business intelligence dashboard, analyzing transactional data to evaluate a retail store's performance.
+
+What the code does: It formats order dates into a proper chronological timeline, sorts the records, and aggregates the total sales and profits across different product categories and geographic regions.
+
+Key Takeaway: The visualizations—including a time-series line chart and a sales-vs-profit scatter plot—highlight crucial business insights, such as seasonal sales spikes toward the end of the year and the discovery that certain high-revenue product categories (like Furniture) operate on razor-thin or negative profit margins.
